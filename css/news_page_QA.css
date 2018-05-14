@@ -1,0 +1,136 @@
+.news_page_QA {
+    background-image: url(background_options/background_news_page_qa_2.png);
+}
+.news_page_QA_container {
+    position:absolute;
+    text-align: center;
+    color:lightgrey;
+    font-family:monospace;
+    width:100%;
+    height:75%;
+    overflow:auto;
+    min-width:1350px;
+}
+.news_page_QA_container h3{
+    font-size:28px;
+    font-weight:bold;
+}
+.news_page_QA_container a {
+    color:#86861d;
+    min-width:600px;
+}
+.QA_one, .QA_two, .QA_three, .QA_four, .QA_five, .QA_six, .QA_seven, .QA_eight, .QA_nine, .QA_ten {
+    background-color:lightgrey;
+    display:block;
+    width:40%;
+    min-width:600px;
+    min-height:50px;
+    height:auto;
+    font-weight:bold;
+    font-size:18px;
+    border-radius:15px;
+    color:goldenrod;
+    border-color:lightgray;
+    margin:10px auto;
+}
+.QA_one_drop #answer_one{
+    display:none;
+}
+.video_one {
+    display:none; 
+}
+.video_one a {
+    text-decoration:underline;
+    color:blue;
+}
+.QA_two_drop #answer_two {
+    display:none; 
+}
+.video_two {
+    display:none;
+}
+.video_two a {
+    text-decoration:underline;
+    color:blue;
+}
+.QA_three_drop #answer_three {
+    display:none;
+}
+.video_three {
+    display:none;
+}
+.video_three a {
+    text-decoration:underline;
+    color:blue;
+}
+.QA_four_drop #answer_four {
+    display:none;
+}
+.video_four {
+    display:none;
+}
+.video_four a {
+    text-decoration:underline;
+    color:blue;
+}
+.QA_five_drop #answer_five {
+    display:none;
+}
+.video_five {
+    display:none;
+}
+.video_five a {
+    text-decoration:underline;
+    color:blue;
+}
+.QA_six_drop #answer_six {
+    display:none;  
+}
+.video_six {
+    display:none;
+}
+.video_six a {
+    text-decoration:underline;
+    color:blue;
+}
+.QA_seven_drop #answer_seven {
+    display:none;
+}
+.video_seven {
+    display:none;
+}
+.QA_eight_drop #answer_eight {
+    display:none;
+}
+.video_seven a {
+    text-decoration:underline;
+    color:blue;
+}
+.video_eight {
+    display:none;
+}
+.video_eight a {
+    text-decoration:underline;
+    color:blue;
+}
+.QA_nine_drop #answer_nine {
+    display:none;
+}
+.video_nine {
+    display:none;
+}
+.video_nine a {
+    text-decoration:underline;
+    color:blue;
+}
+.QA_ten_drop #answer_ten {
+    display:none;
+}
+.video_ten {
+    display:none;
+}
+.video_ten a {
+    text-decoration:underline;
+    color:blue;
+}
+

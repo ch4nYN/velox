@@ -1,0 +1,65 @@
+.news_page {
+    background-image: url("background_options/background_news_page_1.png");
+    
+}
+.news_container {
+    font-size:24px;
+    font-family:monospace;
+    text-align:center;
+    color:white;
+    min-width:1350px;
+    width:100%;
+    font-style:oblique;
+    height:75%;
+    overflow:auto;
+    position:absolute;
+}
+.news_container .header_name {
+    padding-bottom:50px;
+    font-size:24px;
+    width:100%;
+    color:lightblue;
+    
+}
+.go_box a {
+    text-decoration: none;
+    color:white;
+    background-color:#5a93cb;
+}
+.news_container .go_box .articles, .learn_now, .q_and_a {
+    display:inline-table;
+    width:30%;
+    height:400px;
+    
+}
+.news_container #go_btn, #learn_btn, #q_btn {
+    border-style:solid;
+    padding:10px;
+    border-radius:10px;
+    display:inline-block;
+    border-color:white;
+}
+.news_container .go_box p {
+    font-size:15px;
+    padding:5px;
+    font-weight:bold;
+    color:white;
+    width:30%px;
+    height:30px;
+    text-align:center;
+    
+}
+.news_container .go_box img {
+    width:300px;
+    height:200px;
+    border-radius:50px;
+    
+}
+.news_container .go_box h4 {
+    text-decoration-line:overline;
+    font-size:26px;
+    
+}
+.news_container #learn_btn {
+    background-color:dimgrey;
+}

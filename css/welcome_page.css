@@ -1,0 +1,23 @@
+.welcome_page {
+    background-image: url("background_options/background_18.png");
+
+}
+.welcome_container {
+    font-family:monospace;
+    text-align:center;
+    color:white;
+    width:100%;
+    min-width:1350px;
+    height:75%;
+    overflow:auto;
+    position: absolute;
+    
+}
+.welcome_container h1{
+    padding-top:75px;
+    text-align:center;
+    color:white;
+    font-style:italic;
+    font-family:monospace;
+    font-size:30px;
+}

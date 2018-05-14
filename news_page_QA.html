@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Q &amp; A</title>
+        <link rel="icon" href="css/logo/velox_icon.png" type="image/gif" sizes="16x16">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/news_page_QA.css">
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" src="js/news_page_QA.js"></script>
+    </head>
+    <body class="news_page_QA">
+        <div class="navbar">
+<!--           components to the left side of navbar-->
+            <div class="navbar_left">
+<!--  when clicked on logo, should lead back to home/main page-->
+<!--               logo should href to home/main page-->
+                <a href="index.html"><img src="css/logo/Logo.png" id="logo_img"></a>
+            </div>
+            
+    
+<!--  components to the left side of navbar-->
+            <div class="navbar_right">
+<!--  make unordered list and list for navbar-->
+             
+<!--  IMPLEMENTING DROPDOWN MENUS W HOVER FOR ONES THAT NEED-->
+                <div class="drop_menu_account">
+    <!--               ADD IN DROP DOWN MENUS FOR MYACCOUNT TAB-->
+
+                    <a href="account_page.html">My Account</a>
+                    <div class="drop_menu_account_option">
+<!--                     HOVER FUNCTIONALITY STILL WORKING-->
+
+                    </div>
+                </div>
+
+                <div class="drop_menu_live">
+    <!--                ADD IN DROP DOWN MENUS FOR LIVE PRICE TAB-->
+                    <a href="live_price_page.html">Live Prices</a>
+                    <div class="drop_menu_live_option">
+<!--                     HOVER FUNCTIONALITY STILL WORKING-->
+                        
+                    </div>
+                </div> 
+
+                <div class="drop_menu_tools">
+    <!--               ADD IN DROP DOWN MENUS FOR TOOLS-->
+                    <a href="tools_page.html">Converter</a>
+                    <div class="drop_menu_tools_option">
+<!--                     HOVER FUNCTIONALITY STILL WORKING-->
+                       <a href="tools_page_USD.html">USD</a>
+                        <a href="tools_page_EUR.html">EUR</a>
+                        
+                    </div>
+                </div>
+
+                <div class="drop_menu_news">
+                    <a href="news_page.html">News &amp; Education</a>
+                    <div class="drop_menu_news_option">
+                       <a href="news_page_articles.html">Articles</a>
+                        <a href="news_page_QA.html">Q &amp; A</a>
+                        
+                    </div>
+
+                </div>
+                <div class="drop_menu_about">
+                    <a href="about_page.html">About</a>
+                </div>
+                <div class="drop_menu_contact">
+                    <a href="contact_page.html">Contact</a>
+
+                </div>  
+
+                <a href="register_page.html" class="register_user_page">Register</a>
+                
+                <div class="social_media">
+                    <a href="https://www.facebook.com/veloxcrypto"><img src="css/logo/fb_logo.png" style="height:35px"></a>
+                    <a href="https://www.instagram.com/veloxcrypto/"><img src="css/logo/insta_logo.png" style="height:34px"></a>
+                    
+                </div>
+              
+               
+            </div> 
+        </div>
+        <div class="news_page_QA_container">
+           <h3>Q &amp; A</h3>
+            <div class="QA_questions">
+                <div class="QA_one">
+                    <a id="question_one" onclick="showQA1('answer_one')" href="#">1. What is a Blockchain? What can it do? ▼</a>
+                    <div class="QA_one_drop">
+                        <p id="answer_one">The Blockchain is a highly secure collection of digital information, that rather than copied, is publicly distributed. A Blockchain can be used for record of not just financial transactions, but virtually everything of value.</p>
+                        <div class="video_one">
+                            <a href="https://blockchain.info/">Click here to see more info related to the Blockchain! </a>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/6WG7D47tGb0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="QA_two">
+                   <a id="question_two" href="#" onclick="showQA2('answer_two')">2. How is Blockchain Technology used?  ▼</a>
+                    <div class="QA_two_drop">
+                        <p id="answer_two">Due to the strength of Blockchain technology, this revolutionary system can empower applications including digital currencies, smart contracts, and much more. Due to its incredible auditing capability, Blockchain technology will reinstate trust into industries such as accounting &amp; taxation, auto-financing, and real estate. Watch the video below to see how consumers will begin to lease cars thanks to this technology.</p>
+                    </div>
+                    <div class="video_two">
+                        <a href="https://blockchaintechnologies.com/">Click here to learn more about Blockchain Technology!</a>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/IgNfoQQ5Reg" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    
+                </div>
+                <div class="QA_three">
+                   <a id="question_three" href="#" onclick="showQA3('answer_three')">3. What is Bitcoin ▼</a>
+                    <div class="QA_three_drop">
+                        <p id="answer_three">Bitcoin is a form of digital currency that’s created, transferred, and stored electronically. No one controls it, which means it is completely decentralized. Bitcoin uses Blockchain technology, to maintain a highly secure system that requires miniscule transaction fees to transfer value at a revolutionary speed.</p>
+                    </div>
+                    <div class="video_three">
+                       <a href="https://bitcoin.org/en/">Click here to learn more about Bitcoin!</a>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Gc2en3nHxA4" frameborder="0" allowfullscreen></iframe>
+
+                    </div>
+                </div>
+                <div class="QA_four">
+                    <a id="question_four" href="#" onclick="showQA4('answer_four')">4. Why use Bitcoin? ▼</a>
+                   
+                    <div class="QA_four_drop">
+                        <p id="answer_four">It’s fast, cheap, and secure to use! <br><br> Currently, it can take multiple days for a simple transfer of funds to be processed, simply because banks cannot trust that the funds are readily available. With Bitcoin, the Blockchain confirms the transactions and instantaneously transfers the funds for a fraction of the typical fees charged by modern day financial institutions.</p>
+    
+                    </div>
+                    <div class="video_four">
+                       <a href="https://bitcoin.org/en/">Click here to learn more about Bitcoin!</a>
+                       <img src="css/background_options/background_news_page_qa_btc.jpg" height="315" width="560">
+                    </div>
+                </div>
+                <div class="QA_five">
+                    <a id="question_five" href="#" onclick="showQA5('answer_five')">5. How do I securely store Bitcoin? ▼</a>
+                    <div class="QA_five_drop">
+                        <p id="answer_five">There are many methods of storing your Bitcoin and other cryptocurrencies, all providing different advantages in accessibility, security, and efficiency. Currencies like Bitcoin use digital wallets to securely store their value. There are many different types of wallets, some of which include: Desktop, Mobile, Hardware/USB, etc.</p>
+                    </div>
+                    <div class="video_five">
+                        <a href="https://www.cryptocompare.com/wallets/#/overview">Click here to see the comparison of all top cryptocurrency wallets!</a>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WGpatcqhArU" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="QA_six">
+                    <a id="question_six" href="#" onclick="showQA6('answer_six')">6. Where can I use Bitcoin? ▼</a>
+                    <div class="QA_six_drop">
+                        <p id="answer_six">While there are still nearly 10,000 global merchants accepting Bitcoin as payment, a majority of the cryptocurrency is spent in the ECommerce sector. Bitcoin is accepted on sites ranging from retailers such as Overstock.com and Newegg.com, to travel sites including CheapOAir.com.</p>
+                    </div>
+                    <div class="video_six">
+                       <a href="https://coinmap.org/welcome/ ">Click here to see what merchants are currently accepting Bitcoin!</a>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/0DNkFaBOZ5g" frameborder="0" allowfullscreen></iframe>
+
+                    </div>
+                </div>
+                <div class="QA_seven">
+                    <a id="question_seven" href="#" onclick="showQA7('answer_seven')">7. How does Bitcoin Mining Work? ▼</a>
+                    <div class="QA_seven_drop">
+                        <p id="answer_seven">Bitcoin mining is a computational process that verifies transactions within a block and releases new Bitcoin once a complex mathematical puzzle is solved. Because Bitcoin runs on a decentralized network, anyone with internet connection and the proper hardware can participate in mining.</p>
+                    </div>
+                    <div class="video_seven">
+                       <a href="https://www.bitcoinmining.com/ ">Click here to learn more about this complex process!</a>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/GmOzih6I1zs" frameborder="0" allowfullscreen></iframe>
+
+                    </div>
+                </div>
+                <div class="QA_eight">
+                    <a id="question_eight" href="#" onclick="showQA8('answer_eight')">8. What is Ethereum ▼</a>
+                    <div class="QA_eight_drop">
+                        <p id="answer_eight">Ethereum is a decentralized platform that runs smart contracts on a custom built Blockchain. It’s an innovative way that allows for users to design their own digital currencies, democratic autonomous organizations, and even their own decentralized application.</p>
+                    </div>
+                    <div class="video_eight">
+                       <a href="https://www.ethereum.org/">Click here to read more about the Ethereum project!</a>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/j23HnORQXvs" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="QA_nine">
+                    <a id="question_nine" href="#" onclick="showQA9('answer_nine')">9. How do Ethereum Smart Contracts work? ▼</a>
+                    <div class="QA_nine_drop">
+                        <p id="answer_nine">Smart Contracts are responsible for running Ethereum applications exactly as programmed without any possibility of downtime, censorship, fraud or a third party interference. </p>
+                    </div>
+                    <div class="video_nine">
+                       <a href="https://www.ethereum.org/greeter ">Click here to learn how to build your own Smart Contracts!</a>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Lp7Qzys_yB8" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="QA_ten">
+                    <a id="question_ten" href="#" onclick="showQA10('answer_ten')">10. What is a DAO? (Decentralized Autonomous Org.) ▼</a>
+                    <div class="QA_ten_drop">
+                        <p id="answer_ten">It is an organization that is run by rules programmed through smart contracts. Utilizing Blockchain technology, a DAO provides a secure public ledger that keeps record of financial interactions across the internet. It's protected against forgery by trusted timestamping and the distribution of the public database. This type of system eliminates the need for a third-party facilitator to process the transactions. A prime example of the DAO concept is the Ethereum platform. </p>
+                    </div>
+                    <div class="video_ten">
+                       <a href="https://www.ethereum.org/dao">Click here to learn more about DAO!</a>
+                        <img src="css/background_options/background_news_page_qa_dao.png" width="560" height="315">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </body>
+    
+</html>
